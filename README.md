@@ -7,20 +7,27 @@ src is a folder containing :
 
 +hodlr : 
 
-1) buildWeak.m : 
-2)  matvec.m :
-3)  addition.m :
-4)  multiplication.m :
-5)  scale.m :
-6)  solve.m :
-7)  LU.m :
-8) HODLR_to_dense.M :
-9) spy.m :
+1) buildWeak.m : This function builts a HODLR matrix (H-matrix, weak admissibility) from a dense matrix.
+2)  matvec.m : HODLR matrix - vector multiplication function
+3)  addition.m : HODLR matrix - HODLR matrix addition function
+4)  multiplication.m : HODLR matrix - HODLR matrix addition function
+5)  scale.m : HODLR matrix - scalar multiplication function
+6)  solve.m : Function to solve a HODLR matrix system (Hx=b) using LU factorization of H.
+7)  LU.m : LU factorization of a HODLR matrix 
+8) HODLR_to_dense.M : Densifies HODLR matrix 
+9) spy.m : Visualize a HODLR matrix
 
 +geometry : 
 
+1) circle: generates a circle and outputs the set of points and connectivity edge list
+
 +mom2d : 
 
-tests is a folder containing : test_all_the_functions.m
+1) generateZ: This function generates the impedance matrix for a 2D MoM problem: An incident field E0 with TMz polarization with a PEC infinitely long cylinder
+
+tests is a folder containing :
+
+1) test_all_the_functions.m: Just implements all functions in +hodlr folder
+
 
    
