@@ -2,6 +2,7 @@
 This is a repossitory with useful functions to work with different H-matrix formats in MATLAB.
 
 # September 16, 2026 update:
+Now this functions take a dense matrix and perform different opperations with it after transform it to HODLR format. Relying in SVD factorization for low-rank blocks. 
 
 src is a folder containing :
 
