@@ -2,19 +2,11 @@
 This is a repossitory with useful functions to work with different H-matrix formats in MATLAB.
 
 # September 16 update:
-├── src/
-│   └── +hodlr/
-│       ├── buildWeak.m
-│       ├── matvec.m
-│       ├── addition.m
-│       ├── multiplication.m
-│       ├── scale.m
-│       ├── solve.m
-│       ├── LU.m
-│       ├── HODLR_to_dense.m
-│       └── spy.m
-│
-├── tests/
-│   ├── test_all_the_functions.m
-└── 
+src is a folder containing :
++hodlr : 1) buildWeak.m 2) matvec.m 3) addition.m 4) multiplication.m 5) scale.m 6) solve.m 7) LU.m 8) HODLR_to_dense.m 9) spy.m
++geometry : 
++mom2d : 
+
+tests is a folder containing : test_all_the_functions.m
+
    
